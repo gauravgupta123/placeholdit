@@ -1,6 +1,6 @@
 (function($) {
     $.fn.placeholdit = function() {
-        this.find('img').each( function(i,element) {
+        this.find('img.placeholdit').each( function(i,element) {
             var w, h;
             w = element.width;
             h = element.height;
